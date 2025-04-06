@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    box-sizing: border-box;
+    width: 800px;
+    margin: 88px auto 58px auto;
+}
+
+#content-list {
+    list-style: none;
+    padding: 0;
+}
+
+#tag {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 48px;
+}
