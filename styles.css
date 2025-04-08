@@ -67,6 +67,14 @@ h2 {
     padding: 0;
 }
 
+#content-card img {
+    border-radius: 16px;
+    width: 100%;
+    height: auto;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
 #tag {
     list-style-type: disc;
     list-style-position: inside;
