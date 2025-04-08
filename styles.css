@@ -67,6 +67,22 @@ h2 {
     padding: 0;
 }
 
+#tag-1 li:nth-child(1) {
+    color: #0c51a7;
+}
+
+#tag-2 li:nth-child(1) {
+    color: #591b98;
+}
+
+#tag-2 li:nth-child(2) {
+    color: #e5245e;
+}
+
+#tag-2 li:nth-child(3) {
+    color: #e95e10;
+}
+
 #content-card img {
     border-radius: 16px;
     width: 100%;
@@ -75,9 +91,14 @@ h2 {
     margin-bottom: 20px;
 }
 
-#tag {
+#tag-1, #tag-2 {
     list-style-type: disc;
     list-style-position: inside;
+}
+
+#container-bottom {
+    text-align: center;
+    margin-top: 40px;
 }
 
 footer {
